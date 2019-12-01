@@ -167,8 +167,10 @@ table {
   width: 100%;
 }
 .mission,
-.impact {
+.project,
+.forward {
   display: flex;
+  justify-content: center;
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 1.05rem;
@@ -177,34 +179,43 @@ table {
   padding: 2.5rem 5rem 2.5rem;
 }
 .mission .textContainer,
-.impact .textContainer {
+.project .textContainer,
+.forward .textContainer {
   width: 80%;
 }
+.mission .textContainer b,
+.project .textContainer b,
+.forward .textContainer b {
+  font-weight: 800;
+}
 .mission .textContainer .title,
-.impact .textContainer .title {
+.project .textContainer .title,
+.forward .textContainer .title {
   font-size: 1.25rem;
   text-transform: uppercase;
   margin-bottom: 0.25rem;
   font-weight: 700;
 }
 .mission .imgContainer,
-.impact .imgContainer {
+.project .imgContainer,
+.forward .imgContainer {
   display: flex;
   align-items: center;
   width: 3rem;
   padding: 0 0.75rem 0;
 }
 .mission .imgContainer img,
-.impact .imgContainer img {
+.project .imgContainer img,
+.forward .imgContainer img {
   width: 100%;
 }
-.impact {
+.project {
   background-color: #292c2f;
 }
 .donationBox {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(#292c2f 50%, #b01e65 50%);
+  background-image: linear-gradient(#b01e65 50%, #292c2f 50%);
 }
 .donationBox button {
   color: gainsboro;
@@ -225,7 +236,7 @@ table {
   border: 2px solid white;
 }
 .video {
-  background-color: #b01e65;
+  background-color: #292c2f;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
