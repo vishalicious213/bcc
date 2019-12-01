@@ -1,7 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 .menuBar {
   display: flex;
   justify-content: space-between;
   background: #292c2f;
+  padding: 1rem;
 }
 .menuBar .logoContainer {
   width: 25%;
@@ -21,8 +150,6 @@
   letter-spacing: 0.1rem;
   border: 1px solid dimgray;
   border-radius: 1rem;
-  margin-right: 1rem;
-  height: 0.75rem;
   width: 5rem;
   text-align: center;
   padding: 0.75rem;
@@ -41,19 +168,90 @@
 }
 .mission,
 .impact {
+  display: flex;
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 1.05rem;
+  letter-spacing: 0.025rem;
   background-color: #b01e65;
-  padding: 1rem;
+  padding: 2.5rem 5rem 2.5rem;
 }
-.mission .title,
-.impact .title {
+.mission .textContainer,
+.impact .textContainer {
+  width: 80%;
+}
+.mission .textContainer .title,
+.impact .textContainer .title {
   font-size: 1.25rem;
   text-transform: uppercase;
   margin-bottom: 0.25rem;
   font-weight: 700;
 }
+.mission .imgContainer,
+.impact .imgContainer {
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  padding: 0 0.75rem 0;
+}
+.mission .imgContainer img,
+.impact .imgContainer img {
+  width: 100%;
+}
 .impact {
   background-color: #292c2f;
+}
+.donationBox {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#292c2f 50%, #b01e65 50%);
+}
+.donationBox button {
+  color: gainsboro;
+  background-color: #b01e65;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  border: 2px solid gainsboro;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.75rem;
+}
+.donationBox button:hover {
+  color: white;
+  background-color: deeppink;
+  border: 2px solid white;
+}
+.video {
+  background-color: #b01e65;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.video .videoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  border: 3px solid gainsboro;
+}
+footer {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1.5rem;
+  color: gainsboro;
+  background-color: black;
 }
