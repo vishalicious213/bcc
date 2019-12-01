@@ -32,6 +32,10 @@
   background-color: dimgray;
   border: 1px solid darkgray;
 }
+.headerImage {
+  background: black;
+  border-top: 2px solid black;
+}
 .headerImage img {
   width: 100%;
 }
