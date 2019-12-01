@@ -13,8 +13,30 @@
         width: 100%;
     } // .logo
 
-    .menu {
-        color: white;
+    .menuContainer {
+        display: flex;
+        align-items: center;
+
+        .menu {
+            color: gainsboro;
+            font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+            font-size: .75rem;
+            font-weight: 700;
+            letter-spacing: .1rem;
+            border: 1px solid dimgray;
+            border-radius: 1rem;
+            margin-right: 1rem;
+            height: .75rem;
+            width: 5rem;
+            text-align: center;
+            padding: .75rem;
+
+            &:hover {
+                color: white;
+                background-color: dimgray;
+                border: 1px solid darkgray;
+            }
+        }
     }
 } // .menuBar
 
