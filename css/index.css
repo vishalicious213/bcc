@@ -1,0 +1,19 @@
+.menuBar {
+  display: flex;
+  justify-content: space-between;
+  background: #292c2f;
+  border: 1px solid orange;
+}
+.menuBar .logoContainer {
+  width: 25%;
+  border: 1px solid red;
+}
+.menuBar .logo {
+  width: 100%;
+}
+.menuBar .menu {
+  color: white;
+}
+.headerImage img {
+  width: 100%;
+}
