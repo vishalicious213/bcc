@@ -266,3 +266,33 @@ footer {
   color: gainsboro;
   background-color: black;
 }
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(to top left, #292c2f 50%, #b01e65 50%);
+}
+.team .teamMember {
+  width: 47%;
+  margin-bottom: 1.5rem;
+  border: 3px solid deeppink;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.team .teamMember .name {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.team .teamMember .role {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.team .teamMember img {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
