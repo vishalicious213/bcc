@@ -296,6 +296,12 @@ footer {
   color: gainsboro;
   background-color: black;
 }
+footer a {
+  color: #b01e65;
+}
+footer a:hover {
+  color: deeppink;
+}
 .teamTitle {
   text-align: center;
   font-family: 'Lato', sans-serif;
