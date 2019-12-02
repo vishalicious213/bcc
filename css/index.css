@@ -214,6 +214,10 @@ table {
   .project,
   .forward {
     padding: 2rem;
+  }
+  .mission .textContainer,
+  .project .textContainer,
+  .forward .textContainer {
     width: 90%;
   }
 }
