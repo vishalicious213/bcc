@@ -87,6 +87,24 @@
             width: 100%;
         }
     } // .imgContainer
+
+    @media only screen and (max-width: 768px) {
+        padding: 2rem;
+        width: 90%;
+    }
+
+    @media only screen and (max-width: 576px) {
+        flex-direction: column;
+        padding: 1.5rem 2rem 1.5rem;
+
+        .textContainer {
+            width: 100%;
+        }
+
+        .imgContainer {
+            display: none;
+        }
+    }
 } // .mission, /impact
 
 .project {
