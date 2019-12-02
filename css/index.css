@@ -276,6 +276,8 @@ footer {
   background-image: linear-gradient(to top left, #292c2f 50%, #b01e65 50%);
 }
 .team .teamMember {
+  display: grid;
+  grid-template-rows: 1.9rem 1.5rem 7rem auto;
   width: 47%;
   margin-bottom: 1.5rem;
   border: 3px solid deeppink;
@@ -285,14 +287,11 @@ footer {
 }
 .team .teamMember .name {
   font-size: 1.75rem;
-  margin-bottom: 0.5rem;
 }
 .team .teamMember .role {
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
 }
 .team .teamMember img {
   width: 100%;
-  margin-top: 1rem;
   border-radius: 1rem;
 }
