@@ -276,7 +276,10 @@ table {
 }
 .mission .textContainer .boobtiqueText,
 .project .textContainer .boobtiqueText,
-.forward .textContainer .boobtiqueText {
+.forward .textContainer .boobtiqueText,
+.mission .textContainer .donateText,
+.project .textContainer .donateText,
+.forward .textContainer .donateText {
   margin-bottom: 1rem;
 }
 .mission .imgContainer,
@@ -330,12 +333,14 @@ table {
 .project {
   background-color: #292c2f;
 }
-.donationBox {
+.donationBox,
+.volunteerButton {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(#b01e65 50%, #292c2f 50%);
 }
-.donationBox button {
+.donationBox button,
+.volunteerButton button {
   color: gainsboro;
   background-color: #b01e65;
   font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
@@ -348,7 +353,8 @@ table {
   text-align: center;
   padding: 0.75rem;
 }
-.donationBox button:hover {
+.donationBox button:hover,
+.volunteerButton button:hover {
   color: white;
   background-color: deeppink;
   border: 2px solid white;
@@ -460,4 +466,9 @@ footer a:hover {
 }
 .boobtique-bottom-pic img {
   width: 100%;
+}
+ul {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-left: 2rem;
 }
