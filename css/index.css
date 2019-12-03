@@ -274,6 +274,11 @@ table {
   margin-bottom: 0.25rem;
   font-weight: 700;
 }
+.mission .textContainer .boottiqueText,
+.project .textContainer .boottiqueText,
+.forward .textContainer .boottiqueText {
+  margin-bottom: 1rem;
+}
 .mission .imgContainer,
 .project .imgContainer,
 .forward .imgContainer {
@@ -421,4 +426,13 @@ footer a:hover {
   .team .teamMember {
     width: 90%;
   }
+}
+.boobtique-gallery {
+  display: flex;
+}
+.boobtique-gallery .pictureframe {
+  width: 33.33%;
+}
+.boobtique-gallery .pictureframe img {
+  width: 100%;
 }
