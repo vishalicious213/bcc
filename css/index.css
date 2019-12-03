@@ -159,7 +159,7 @@ table {
   display: none;
 }
 /* Media Queries */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 775px) {
   .topnav a {
     font-size: 0.7rem;
     padding: 14px 8px;
@@ -199,6 +199,11 @@ table {
 }
 .menuBar .logoContainer {
   width: 25%;
+}
+@media only screen and (max-width: 768px) {
+  .menuBar .logoContainer {
+    width: 33%;
+  }
 }
 .menuBar .logo {
   width: 100%;
