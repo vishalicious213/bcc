@@ -303,6 +303,11 @@ table {
   .forward .textContainer {
     width: 90%;
   }
+  .mission .textContainer p,
+  .project .textContainer p,
+  .forward .textContainer p {
+    font-size: 0.9rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .mission,
