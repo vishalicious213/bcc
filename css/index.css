@@ -208,37 +208,6 @@ table {
 .menuBar .logo {
   width: 100%;
 }
-.menuBar .menuContainer {
-  display: flex;
-  align-items: center;
-}
-.menuBar .menuContainer .menuList {
-  color: gainsboro;
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  border: 1px solid dimgray;
-  border-radius: 1rem;
-  width: 10rem;
-  text-align: center;
-  padding: 0.75rem;
-  position: sticky;
-}
-.menuBar .menuContainer .menuList:hover {
-  color: white;
-  background-color: #b01e65;
-  border: 1px solid darkgray;
-}
-.menuBar .menuContainer .menuList .menu {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.5rem;
-}
-.menuBar .menuContainer .menuList a {
-  color: gainsboro;
-  margin-bottom: 0.5rem;
-}
 .menu-toggle {
   display: none;
 }
