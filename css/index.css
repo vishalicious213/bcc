@@ -274,9 +274,9 @@ table {
   margin-bottom: 0.25rem;
   font-weight: 700;
 }
-.mission .textContainer .boottiqueText,
-.project .textContainer .boottiqueText,
-.forward .textContainer .boottiqueText {
+.mission .textContainer .boobtiqueText,
+.project .textContainer .boobtiqueText,
+.forward .textContainer .boobtiqueText {
   margin-bottom: 1rem;
 }
 .mission .imgContainer,
@@ -426,6 +426,15 @@ footer a:hover {
   .team .teamMember {
     width: 90%;
   }
+  .team .teamMember .name {
+    font-size: 1.55rem;
+  }
+  .team .teamMember .role {
+    font-size: 1.05rem;
+  }
+  .team .teamMember .bio {
+    font-size: 0.9rem;
+  }
 }
 .boobtique-gallery {
   display: flex;
@@ -434,5 +443,16 @@ footer a:hover {
   width: 33.33%;
 }
 .boobtique-gallery .pictureframe img {
+  width: 100%;
+}
+.boobtique-bottom-pic {
+  display: flex;
+  justify-content: center;
+  background-color: #f5d3e4;
+}
+.boobtique-bottom-pic .bottom-pic-container {
+  width: 50%;
+}
+.boobtique-bottom-pic img {
   width: 100%;
 }
