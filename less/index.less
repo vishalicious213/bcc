@@ -1,4 +1,5 @@
 @import 'reset.less';
+@import 'navbar.less';
 
 .menuBar {
     display: flex;
@@ -18,7 +19,9 @@
         display: flex;
         align-items: center;
 
-        .menu {
+        .menuList {
+            // display: flex;
+            // flex-direction: column;
             color: gainsboro;
             font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
             font-size: .75rem;
@@ -26,18 +29,35 @@
             letter-spacing: .1rem;
             border: 1px solid dimgray;
             border-radius: 1rem;
-            width: 5rem;
+            width: 10rem;
             text-align: center;
             padding: .75rem;
+            position: sticky;
 
             &:hover {
                 color: white;
-                background-color: dimgray;
+                // background-color: dimgray;
+                background-color: #b01e65;
                 border: 1px solid darkgray;
+            }
+
+            .menu {
+                display: flex;
+                flex-direction: column;
+                margin-top: .5rem;
+            }
+
+            a {
+                color: gainsboro;
+                margin-bottom: .5rem;
             }
         }
     }
 } // .menuBar
+
+.menu-toggle {
+    display: none;
+}
 
 .headerImage {
     background: black;
