@@ -208,9 +208,6 @@ table {
 .menuBar .logo {
   width: 100%;
 }
-.menu-toggle {
-  display: none;
-}
 .headerImage {
   background: black;
   border-top: 2px solid black;
@@ -357,6 +354,8 @@ table {
   border: 3px solid gainsboro;
 }
 footer {
+  display: flex;
+  justify-content: center;
   font-family: 'Lato', sans-serif;
   font-size: 0.75rem;
   text-align: center;
@@ -369,6 +368,15 @@ footer a {
 }
 footer a:hover {
   color: deeppink;
+}
+footer .fb {
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  margin-left: 1rem;
+}
+footer .fb img {
+  width: 100%;
 }
 .teamTitle {
   text-align: center;
