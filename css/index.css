@@ -378,6 +378,10 @@ footer .fb {
 footer .fb img {
   width: 100%;
 }
+footer .twitter {
+  margin-left: 0;
+  margin-right: 1rem;
+}
 @media only screen and (max-width: 768px) {
   footer {
     font-size: 0.65rem;
