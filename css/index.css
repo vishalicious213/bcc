@@ -386,6 +386,9 @@ footer .twitter {
   footer {
     font-size: 0.65rem;
   }
+  footer .fb {
+    width: 2rem;
+  }
 }
 .teamTitle {
   text-align: center;
