@@ -363,6 +363,12 @@ footer {
   color: gainsboro;
   background-color: black;
 }
+footer .fullscreenAddress {
+  display: block;
+}
+footer .mobileAddress {
+  display: none;
+}
 footer a {
   color: #b01e65;
 }
@@ -385,6 +391,12 @@ footer .twitter {
 @media only screen and (max-width: 768px) {
   footer {
     font-size: 0.65rem;
+  }
+  footer .fullscreenAddress {
+    display: none;
+  }
+  footer .mobileAddress {
+    display: block;
   }
   footer .fb {
     width: 2rem;

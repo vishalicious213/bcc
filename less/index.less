@@ -170,6 +170,14 @@ footer {
     color: gainsboro;
     background-color: black;
 
+    .fullscreenAddress {
+        display: block;
+    }
+
+    .mobileAddress {
+        display: none;
+    }
+
     a {
         color: #b01e65;
 
@@ -197,6 +205,14 @@ footer {
 
     @media only screen and (max-width: 768px) {
         font-size: .65rem;
+
+        .fullscreenAddress {
+            display: none;
+        }
+    
+        .mobileAddress {
+            display: block;
+        }
 
         .fb {
             width: 2rem;
