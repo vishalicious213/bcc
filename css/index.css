@@ -388,6 +388,10 @@ footer .twitter {
   }
   footer .fb {
     width: 2rem;
+    margin-left: 0.5rem;
+  }
+  footer .twitter {
+    margin-right: 0.5rem;
   }
 }
 .teamTitle {
